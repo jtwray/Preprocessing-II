@@ -318,6 +318,7 @@ header img.logo {
     flex-direction: column;
     padding-top: 0px;
     border-top: none;
+    margin: 10%;
   }
 }
 .home .content-pick .destination {
