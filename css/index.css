@@ -189,6 +189,15 @@ nav {
   width: 50%;
   font-size: 2rem;
 }
+@media (max-width:500px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    font-size: 2rem;
+  }
+}
 nav a {
   text-decoration: none;
   color: black;
@@ -214,6 +223,14 @@ header div {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+@media (max-width:500px) {
+  header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 header img.logo {
   min-width: 100%;
